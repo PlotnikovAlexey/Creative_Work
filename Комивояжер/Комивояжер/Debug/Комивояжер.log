@@ -1,0 +1,50 @@
+﻿  Комивояжер.cpp
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(404,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(281,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(280): message : во время компиляции функции-члена класс шаблон "int Graph<int>::GetVertPos(const T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(138): message : выполняется компиляция ссылки на экземпляр шаблон функции "int Graph<int>::GetVertPos(const T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(291): message : во время компиляции функции-члена класс шаблон "Graph<int>::Graph(void)"
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(307): message : выполняется компиляция ссылки на экземпляр шаблон функции "Graph<int>::Graph(void)"
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(307): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Graph<int>"
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(39,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(38): message : во время компиляции функции-члена класс шаблон "int Graph<int>::Dijkstra(T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(181): message : выполняется компиляция ссылки на экземпляр шаблон функции "int Graph<int>::Dijkstra(T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(41,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(42,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(51,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(63,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(70,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(79,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(97,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(107,46): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(117,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(115): message : во время компиляции функции-члена класс шаблон "bool Graph<int>::AllVisited(bool *)"
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(74): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool Graph<int>::AllVisited(bool *)"
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(280): message : во время компиляции функции-члена класс шаблон "int Graph<int>::GetVertPos(const T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(138): message : выполняется компиляция ссылки на экземпляр шаблон функции "int Graph<int>::GetVertPos(const T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\fastr\source\repos\Комивояжер\Комивояжер\Graph.h(111): warning C4715: Graph<int>::Dijkstra: значение возвращается не при всех путях выполнения
+  Комивояжер.vcxproj -> C:\Users\fastr\source\repos\Комивояжер\Debug\Комивояжер.exe
