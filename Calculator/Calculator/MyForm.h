@@ -174,19 +174,19 @@ namespace Calculator {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(151, 33);
 			this->button1->TabIndex = 0;
-			this->button1->Text = L"Вычислить";
+			this->button1->Text = L"Р’С‹С‡РёСЃР»РёС‚СЊ";
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
 			// comboBox1
 			// 
 			this->comboBox1->FormattingEnabled = true;
-			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"Алгебраическое уравнение", L"Трансцендентное уравнение" });
+			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"РђР»РіРµР±СЂР°РёС‡РµСЃРєРѕРµ СѓСЂР°РІРЅРµРЅРёРµ", L"РўСЂР°РЅСЃС†РµРЅРґРµРЅС‚РЅРѕРµ СѓСЂР°РІРЅРµРЅРёРµ" });
 			this->comboBox1->Location = System::Drawing::Point(401, 9);
 			this->comboBox1->Name = L"comboBox1";
 			this->comboBox1->Size = System::Drawing::Size(175, 21);
 			this->comboBox1->TabIndex = 1;
-			this->comboBox1->Text = L"Выберите вид уравнения";
+			this->comboBox1->Text = L"Р’С‹Р±РµСЂРёС‚Рµ РІРёРґ СѓСЂР°РІРЅРµРЅРёСЏ";
 			this->comboBox1->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox1_SelectedIndexChanged);
 			// 
 			// label1
@@ -200,7 +200,7 @@ namespace Calculator {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(181, 20);
 			this->label1->TabIndex = 3;
-			this->label1->Text = L"Введите уравнение:";
+			this->label1->Text = L"Р’РІРµРґРёС‚Рµ СѓСЂР°РІРЅРµРЅРёРµ:";
 			this->label1->Visible = false;
 			// 
 			// label2
@@ -214,7 +214,7 @@ namespace Calculator {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(194, 20);
 			this->label2->TabIndex = 5;
-			this->label2->Text = L"Введите промежуток:";
+			this->label2->Text = L"Р’РІРµРґРёС‚Рµ РїСЂРѕРјРµР¶СѓС‚РѕРє:";
 			// 
 			// label3
 			// 
@@ -227,7 +227,7 @@ namespace Calculator {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(29, 20);
 			this->label3->TabIndex = 6;
-			this->label3->Text = L"от";
+			this->label3->Text = L"РѕС‚";
 			// 
 			// textBox2
 			// 
@@ -255,7 +255,7 @@ namespace Calculator {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(31, 20);
 			this->label4->TabIndex = 9;
-			this->label4->Text = L"до";
+			this->label4->Text = L"РґРѕ";
 			// 
 			// textBox4
 			// 
@@ -277,7 +277,7 @@ namespace Calculator {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(103, 20);
 			this->label5->TabIndex = 11;
-			this->label5->Text = L"Результат:";
+			this->label5->Text = L"Р РµР·СѓР»СЊС‚Р°С‚:";
 			// 
 			// label6
 			// 
@@ -290,7 +290,7 @@ namespace Calculator {
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(164, 24);
 			this->label6->TabIndex = 12;
-			this->label6->Text = L"Не выбран вид!";
+			this->label6->Text = L"РќРµ РІС‹Р±СЂР°РЅ РІРёРґ!";
 			// 
 			// label13
 			// 
@@ -325,7 +325,7 @@ namespace Calculator {
 			this->label12->Name = L"label12";
 			this->label12->Size = System::Drawing::Size(279, 20);
 			this->label12->TabIndex = 50;
-			this->label12->Text = L"Введите точность вычислений:";
+			this->label12->Text = L"Р’РІРµРґРёС‚Рµ С‚РѕС‡РЅРѕСЃС‚СЊ РІС‹С‡РёСЃР»РµРЅРёР№:";
 			this->label12->Click += gcnew System::EventHandler(this, &MyForm::label12_Click);
 			// 
 			// textBox11
@@ -344,7 +344,7 @@ namespace Calculator {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(129, 33);
 			this->button2->TabIndex = 55;
-			this->button2->Text = L"Очистить";
+			this->button2->Text = L"РћС‡РёСЃС‚РёС‚СЊ";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -356,7 +356,7 @@ namespace Calculator {
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(120, 46);
 			this->button3->TabIndex = 56;
-			this->button3->Text = L"Примеры";
+			this->button3->Text = L"РџСЂРёРјРµСЂС‹";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
 			// 
@@ -385,7 +385,7 @@ namespace Calculator {
 			this->Controls->Add(this->comboBox1);
 			this->Controls->Add(this->button1);
 			this->Name = L"MyForm";
-			this->Text = L"Калькулятор уравнений";
+			this->Text = L"РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ СѓСЂР°РІРЅРµРЅРёР№";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -462,7 +462,7 @@ namespace Calculator {
 			ez = 0;
 			// Checking the correctness of entering the accuracy of calculations
 			if ((textBox10->Text->Length == 0)) {
-				MessageBox::Show("Введите точность вычислений!");
+				MessageBox::Show("Р’РІРµРґРёС‚Рµ С‚РѕС‡РЅРѕСЃС‚СЊ РІС‹С‡РёСЃР»РµРЅРёР№!");
 			}
 			else {
 				e = System::Convert::ToDouble(textBox10->Text);
@@ -471,7 +471,7 @@ namespace Calculator {
 			}
 			//Checking the correctness of the entered interval
 			if ((textBox2->Text->Length == 0) || (textBox3->Text->Length == 0)) {
-				MessageBox::Show("Введите промежуток!");
+				MessageBox::Show("Р’РІРµРґРёС‚Рµ РїСЂРѕРјРµР¶СѓС‚РѕРє!");
 				fl = false;
 			}
 			else {
@@ -481,7 +481,7 @@ namespace Calculator {
 			}
 
 
-			if (comboBox1->SelectedItem == "Алгебраическое уравнение") {
+			if (comboBox1->SelectedItem == "РђР»РіРµР±СЂР°РёС‡РµСЃРєРѕРµ СѓСЂР°РІРЅРµРЅРёРµ") {
 				s = "     " + textBox11->Text + "     ";
 				for (int i = 5; i < s->Length - 5; i++) {
 					if (s[i] <= '9' && s[i] >= '0') {
@@ -712,7 +712,7 @@ namespace Calculator {
 				textBox4->Text = System::Convert::ToString(Result);
 			}
 
-			if (comboBox1->SelectedItem == "Трансцендентное уравнение") {
+			if (comboBox1->SelectedItem == "РўСЂР°РЅСЃС†РµРЅРґРµРЅС‚РЅРѕРµ СѓСЂР°РІРЅРµРЅРёРµ") {
 					s = "     " + textBox11->Text + "     ";
 					for (int i = 5; i < s->Length - 5; i++) {
 						if (s[i] <= '9' && s[i] >= '0') {
@@ -1277,7 +1277,7 @@ namespace Calculator {
 		}
 	}
 private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
-	MessageBox::Show("Пример записи для алгебраического уравнения:\n 1*x^(3)-27*x^(0)\nПример записи для трансцендентного уравнения:\n 15*4-sin(30)-2*x^(2)+log(2,4)");
+	MessageBox::Show("РџСЂРёРјРµСЂ Р·Р°РїРёСЃРё РґР»СЏ Р°Р»РіРµР±СЂР°РёС‡РµСЃРєРѕРіРѕ СѓСЂР°РІРЅРµРЅРёСЏ:\n 1*x^(3)-27*x^(0)\nРџСЂРёРјРµСЂ Р·Р°РїРёСЃРё РґР»СЏ С‚СЂР°РЅСЃС†РµРЅРґРµРЅС‚РЅРѕРіРѕ СѓСЂР°РІРЅРµРЅРёСЏ:\n 15*4-sin(30)-2*x^(2)+log(2,4)");
 }
 private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
 	textBox11->Text = "";
@@ -1290,15 +1290,15 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 		   bool Protect() {
 			for (int i = 0; i < textBox2->Text->Length; i++) {
 				if ((textBox2->Text[i] >= '0') && (textBox2->Text[i] <= '9') || (textBox2->Text[i] == ',') || (textBox2->Text[i] == '-')) {}
-				else { MessageBox::Show("Неверный ввод!\nПроверьте, правильно ли указано начало интервала"); return false; }
+				else { MessageBox::Show("РќРµРІРµСЂРЅС‹Р№ РІРІРѕРґ!\nРџСЂРѕРІРµСЂСЊС‚Рµ, РїСЂР°РІРёР»СЊРЅРѕ Р»Рё СѓРєР°Р·Р°РЅРѕ РЅР°С‡Р°Р»Рѕ РёРЅС‚РµСЂРІР°Р»Р°"); return false; }
 			}
 			for (int i = 0; i < textBox3->Text->Length; i++) {
 				if ((textBox3->Text[i] >= '0') && (textBox3->Text[i] <= '9') || (textBox3->Text[i] == ',') || (textBox3->Text[i] == '-')) {}
-				else { MessageBox::Show("Неверный ввод!\nПроверьте, правильно ли указан конец интервала"); return false; }
+				else { MessageBox::Show("РќРµРІРµСЂРЅС‹Р№ РІРІРѕРґ!\nРџСЂРѕРІРµСЂСЊС‚Рµ, РїСЂР°РІРёР»СЊРЅРѕ Р»Рё СѓРєР°Р·Р°РЅ РєРѕРЅРµС† РёРЅС‚РµСЂРІР°Р»Р°"); return false; }
 			}
 			for (int i = 0; i < textBox10->Text->Length; i++) {
 				if ((textBox10->Text[i] >= '0') && (textBox10->Text[i] <= '9') || (textBox10->Text[i] == ',') || (textBox10->Text[i] == '-')) {}
-				else { MessageBox::Show("Неверный ввод!\nПроверьте, правильно ли указана точность вычислений"); return false; }
+				else { MessageBox::Show("РќРµРІРµСЂРЅС‹Р№ РІРІРѕРґ!\nРџСЂРѕРІРµСЂСЊС‚Рµ, РїСЂР°РІРёР»СЊРЅРѕ Р»Рё СѓРєР°Р·Р°РЅР° С‚РѕС‡РЅРѕСЃС‚СЊ РІС‹С‡РёСЃР»РµРЅРёР№"); return false; }
 			}
 			return true;
 		}
@@ -1307,14 +1307,14 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 	}
 		   // Changing the window, depending on the type of equation
 	private: System::Void comboBox1_SelectedIndexChanged(System::Object ^ sender, System::EventArgs ^ e) {
-		if (comboBox1->SelectedItem == "Алгебраическое уравнение") {
-			label6->Text = "Алгебраическое уравнение";
+		if (comboBox1->SelectedItem == "РђР»РіРµР±СЂР°РёС‡РµСЃРєРѕРµ СѓСЂР°РІРЅРµРЅРёРµ") {
+			label6->Text = "РђР»РіРµР±СЂР°РёС‡РµСЃРєРѕРµ СѓСЂР°РІРЅРµРЅРёРµ";
 			label1->Visible = true;
 			label13->Visible = true;
 			textBox11->Visible = true;
 		}
-		if (comboBox1->SelectedItem == "Трансцендентное уравнение") {
-			label6->Text = "Трансцендентное уравнение";
+		if (comboBox1->SelectedItem == "РўСЂР°РЅСЃС†РµРЅРґРµРЅС‚РЅРѕРµ СѓСЂР°РІРЅРµРЅРёРµ") {
+			label6->Text = "РўСЂР°РЅСЃС†РµРЅРґРµРЅС‚РЅРѕРµ СѓСЂР°РІРЅРµРЅРёРµ";
 			label1->Visible = true;
 			label13->Visible = true;
 			textBox11->Visible = true;
